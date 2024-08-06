@@ -51,7 +51,7 @@ pushd package/base-files/files
     wget https://raw.githubusercontent.com/RikudouPatrickstar/GeoIP2-CN/release/Country.mmdb -O Country.mmdb
     # 下载控制面板
     wget https://raw.githubusercontent.com/RikudouPatrickstar/ShellCrash/dev/bin/dashboard/meta_xd.tar.gz -O - | tar xz -C ./ui
-    sed -i "s/127.0.0.1/192.168.24.1/g" ui/assets/*.js
+    sed -i "s/127.0.0.1/192.168.1.1=2/g" ui/assets/*.js
     sed -i "s/9090/9999/g" ui/assets/*.js
 
     # 授予文件权限
