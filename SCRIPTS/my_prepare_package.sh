@@ -37,7 +37,7 @@ bash ${OP_SC_DIR}/../PATCH/app/ShellCrash.sh
 
 # Docker
 # pushd feeds/packages
-#   wget -qO- https://github.com/openwrt/packages/commit/d9d5109.patch | patch -p1
+# wget -qO- https://github.com/openwrt/packages/commit/d9d5109.patch | patch -p1
 # popd
 # sed -i '/sysctl.d/d' feeds/packages/utils/dockerd/Makefile
 
